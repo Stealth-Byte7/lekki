@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/whatsapp-order",
+      "destination": "/api/whatsapp-order.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
